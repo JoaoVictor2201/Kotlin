@@ -4,5 +4,7 @@ fun main() {
     print("Informe uma distância em metros: ")
     val metros = readln().toDouble()
 
-    println("Distância de ${metros * 100} centimetros")
+    println("${metros * 100} centimetro(s)")
+    println("${metros / 1000} quilometro(s)")
+    println("${metros * 3.28 } pés")
 }
